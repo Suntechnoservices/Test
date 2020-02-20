@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+
+package com.tutorialspoint;
+
+import java.lang.*;
+
+public class StringDemo {
+
+   public static void main(String[] args) {
+
+      String str1 = "sachin tendulkar";
+      String str2 = "amrood admin";
+      String str3 = "AMROOD ADMIN";
+      
+      // checking for equality with case ignored
+      boolean retval1 = str2.equalsIgnoreCase(str1);
+      boolean retval2 = str2.equalsIgnoreCase(str3);
+  
+      // prints the return value
+      System.out.println("str2 is equal to str1 = " + retval1);
+      System.out.println("str2 is equal to str3 = " + retval2);        
+   }
+}
+=======
 .metadata
 bin/
 tmp/
@@ -58,3 +82,4 @@ local.properties
 # Uncomment this line if you wish to ignore the project description file.
 # Typically, this file would be tracked if it contains build/dependency configurations:
 #.project
+>>>>>>> 15911ac85477eb8ebb493f6734750d00b8d5b81f
