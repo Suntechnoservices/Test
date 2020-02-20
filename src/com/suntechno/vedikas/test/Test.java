@@ -11,8 +11,7 @@ public class Test {
 	public static void main(String[] args) {
 		
 		System.out.println("This is hello world program");
-		System.out.println("This is hello world program");
-		System.out.println("This is  world program");
+		System.out.println("This is Praveen from suntechno");
 		
 		
 	}
