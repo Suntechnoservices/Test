@@ -34,7 +34,7 @@ public class Test {
 		     primeNumbers = primeNumbers + i + " ";
 		  }	
 	       }	
-	       System.out.println("Prime Numbers from 1 to 20 are :");
+	       System.out.println("PrimeNumbers from 1 to 20 are :");
 	       System.out.println(primeNumbers);
 	}
 
