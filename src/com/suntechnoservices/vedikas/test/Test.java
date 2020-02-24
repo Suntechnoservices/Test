@@ -1,5 +1,6 @@
 package com.suntechnoservices.vedikas.test;
 
+
 /*
 * The Test project implements an application that
 * simply displays prime numbers upto 20 to the standard output.
@@ -36,6 +37,21 @@ public class Test {
 	       }	
 	       System.out.println("Prime Numbers from 1 to 20 are :");
 	       System.out.println(primeNumbers);
+	       
+	       // Array program
+	       Venue list = new Venue();
+	       System.out.println(list.venues[0]);
+	       
+	       //Hashmap
+	       Services priceList = new Services();
+	       System.out.println(priceList.pack.size());
+	       
+	       //Arraylist
+	       Cattering listing = new Cattering();
+	       System.out.println(listing.items.size());
+	       
+	       //Linkedlist
+	       Cities lists = new Cities();
+	       System.out.println(lists.cityName);
 	}
-
 }
